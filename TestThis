@@ -1,0 +1,26 @@
+package Inheritance;
+
+
+class Stud1{
+	int id;
+	String name;
+
+Stud1(int id,String name){
+	this.id=id;
+	this.name=name;
+}
+void display() {
+	System.out.println("student id is:"+this.id);
+	System.out.println("student name is:"+this.name);
+}
+}
+
+public class TestThis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Stud1 s1=new Stud1(21,"shweta");
+s1.display();
+	}
+
+}
